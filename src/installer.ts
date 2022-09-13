@@ -51,7 +51,7 @@ export async function installReviewdog(tag: string, directory: string): Promise<
 }
 
 export async function installGolangciLint(tag: string, directory: string): Promise<string> {
-  const owner = "golangci";
+  const owner = "nozzle";
   const repo = "golangci-lint";
   const version = await tagToVersion(tag, owner, repo);
 

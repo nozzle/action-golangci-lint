@@ -64620,7 +64620,7 @@ async function installReviewdog(tag, directory) {
 }
 exports.installReviewdog = installReviewdog;
 async function installGolangciLint(tag, directory) {
-    const owner = "golangci";
+    const owner = "nozzle";
     const repo = "golangci-lint";
     const version = await tagToVersion(tag, owner, repo);
     // get the os information
